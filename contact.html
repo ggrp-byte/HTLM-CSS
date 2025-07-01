@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Kontakt</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Skontaktuj się</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Start</a></li>
-        <li><a href="about.html">O mnie</a></li>
-        <li><a href="projects.html">Projekty</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header><h1>Kontakt<span class="blink">_</span></h1></header>
   <main>
     <form>
-      <input type="text" placeholder="Imię" required><br><br>
-      <input type="email" placeholder="Email" required><br><br>
-      <textarea placeholder="Wiadomość"></textarea><br><br>
-      <button class="btn">Wyślij</button>
+      <label>Imię: <input type="text" required></label>
+      <label>Email: <input type="email" required></label>
+      <label>Wiadomość:<textarea required></textarea></label>
+      <button type="submit">Wyślij</button>
     </form>
   </main>
-  <footer>
-    <p>&copy; 2085 by HTLM-CSS</p>
-  </footer>
+  <footer><a href="index.html">⬅ Start</a></footer>
 </body>
 </html>
