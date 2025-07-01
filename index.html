@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <title>O mnie</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo-Terminal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations.css">
+  <script defer src="theme.js"></script>
 </head>
 <body>
   <header>
-    <h1>Kim jestem?</h1>
+    <h1>Neo-Terminal<span class="blink">_</span></h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Start</a></li>
-        <li><a href="projects.html">Projekty</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
+      <a href="index.html">Start</a>
+      <a href="about.html">O mnie</a>
+      <a href="projects.html">Projekty</a>
+      <a href="contact.html">Kontakt</a>
     </nav>
   </header>
   <main>
-    <h2>Programista 2085</h2>
-    <p>Koduję, hakuję, ulepszam. HTML i CSS to dopiero początek.</p>
+    <section>
+      <h2>Witaj w terminalu przyszłości</h2>
+      <p>Czystość. Minimalizm. Styl jak z cybernetycznego snu retro.</p>
+      <button onclick="toggleTheme()">🎛 Zmień motyw</button>
+    </section>
   </main>
-  <footer>
-    <p>&copy; 2085 by HTLM-CSS</p>
-  </footer>
+  <footer><p>&copy; 2085 by Kurt</p></footer>
 </body>
 </html>
